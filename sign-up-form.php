@@ -1,3 +1,5 @@
+<?php require_once('controle-user-data.php') ;?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,6 +19,9 @@
 
 			<p class="head_para"> it's quick and easy </p>
 
+<form action="login-user.php" method="POST">			 
+
+		
 			<div class="input_boxes">
 
 				<input type="text" name="fullname" placeholder="Full Name "><br>
@@ -25,8 +30,7 @@
 
 				<input type="password" name="password" placeholder="Password "><br>
 
-				<input type="password" name="confirm_passsword" placeholder="Confirm Password "><br>
-
+				
 			</div>
 
 			<div class="btn">
@@ -35,12 +39,12 @@
 
 			<div class="footer_para">
 				Already a member ? 
-				<a href=""> Login Here </a>
+				<a href="login-user.php"> Login Here </a>
 			</div>
 
 	</div>
 </div>
-
+</form>
 
 </body>
 </html>
