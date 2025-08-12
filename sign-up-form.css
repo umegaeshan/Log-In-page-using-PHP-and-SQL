@@ -1,0 +1,96 @@
+*
+{
+	paddin:0px;
+	margin:0px;
+}
+
+.container{
+	height: 100vh;
+	background-color:Aquamarine;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Arial;
+	
+}
+
+.form{
+
+	background-color: white;
+	padding: 2%;
+	font-size: 25px;
+	box-shadow: 1px 1px 10px black;
+	border-radius: 20px;
+	position: absolute;
+}
+
+h1{
+	text-align: center;
+	padding:20px;
+}
+
+.head_para{
+	text-align: center;
+	font-size: 16px;
+	padding-bottom: 5px;
+
+}
+
+.input_boxes{
+
+	position: relative;
+	left:7%;
+
+}
+
+.input_boxes input{
+	height: 25px;
+	width:80%;
+	padding:5px;
+	margin:10px;
+	box-shadow: 1px 1px 8px black;
+	border:none;
+	border-radius: 20px;
+	padding-left: 20px;
+	font-size: 17px;
+}
+
+.btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5%;
+}
+
+.btn input{
+	padding:3%;
+	width: 40%;
+	border-radius: 20px;
+	box-shadow: 0px 0px 3px black;
+	border:none;
+	font-size: 16px;
+	transition: 0.3s ease;
+	background-color: Yellow;
+}
+
+.footer_para{
+	font-size: 17px;
+	text-align: center;
+}
+
+.btn input:hover{
+	background-color: Chartreuse;
+	transform: scale(1.3);
+}
+
+.footer_para{
+	margin: 5%;
+}
+
+.input_boxes input:hover{
+	box-shadow: 1px 1px 8px SlateBlue;
+}
+
+.input_boxes input:focus{
+	box-shadow: 1px 1px 18px SlateBlue;
+}
